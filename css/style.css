@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+
+* {
+    font-family: 'Libre Baskerville', serif;
+}
+
+body {
+    padding: 0px;
+    margin: 0;
+    
+}
+
+.logo {
+    height: 94px;
+    width: 98px;
+    margin-left: 90px;
+}
+
+.logoData {
+    font-size: 17px;
+    font-family: 'Oxygen', sans-serif;
+    margin-left: 137px;
+    background-color: #212c41;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+#cadastrar {
+    position: absolute;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 16px;
+    height: 29px;
+    width: 90px;
+}
+
+#liCadastrar {
+    height: 39px;
+    width: 105px;
+    background-color: #fc3734;
+    margin-left: 40px;
+    position: relative;
+    border-radius: 4.2px;
+}
+
+.menu {
+    font-size: 14px;
+    margin-left: 24px;
+    background-color: #212c41;
+    color: white;
+    border-style: none;
+}
+
+#menuBase {
+    margin-left: 110px;
+    font-size: 14px;
+}
+
+#menuSuperior{
+    align-items: center;
+    list-style: none;
+    display: flex;
+}
+
+.menuSuperiorContainer {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 10;
+}
+
+.imgContainer2{
+    width: 1357px;
+}
+
+.imgContainer3 {
+    width: 1365px;
+}
+
+#menuSuperior li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menuSuperiorContainer{
+background-color: #212c41;
+}
+
+.fraseContainer1 {
+    color: #ffffff;
+    font-size: 46px;
+    margin-top: 386px;
+    margin-left: 131px;
+    text-align: center;
+    position: absolute;
+}
+
+.DataLogo {
+    font-family: 'Oxygen';
+}
+
+.bt1Container1 {
+    height: 56px;
+    width: 208px;
+    font-size: 18px;
+    margin-left: 108px;
+    margin-top: 580px;
+    background-color: #ff4541;
+    color: white;
+    border-style: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+}
+
+.bt2Container1 {
+    height: 56px;
+    width: 284px;
+    font-size: 18px;
+    margin-left: 24px;
+    background-color: #212c41;
+    color: white;
+    border-style: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+}
+
+/*Container 1*/
+.container1 {
+    margin-top: 130px;
+    height: 925px;
+    background-image: url(https://lwfiles000.mycourse.app/datascienceacademy-public/29e7ca0c405efb94cf45dfe534419dd9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150%;
+    position: relative;
+    
+}
+
+/*Container 2*/
+.tituloContainer2 {
+    font-size: 38px;
+    text-align: center;
+}
+
+.texto1Container2 {
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Oxygen';
+    opacity: 60%;
+}
+
+
+.tituloTable {
+    font-size: 23px;
+    text-align: center;
+    color: #313131;
+}
+
+.textoTable {
+    font-size: 15px;
+    font-family: 'Oxygen';
+    text-align: left;
+    line-height: 24.75px;
+    opacity: 60%;
+    color: #313131;
+}
+
+.botaoTable {
+    font-size: 14px;
+    background-color: white;
+    border-color: #ff4541;
+    box-shadow: none;
+    border-radius: 8px;
+    width: 136px;
+    height: 43px;
+    align-items: center;
+    margin-left: 119px;
+    font-family: 'Oxygen';
+    color: #ff4541;
+    margin-bottom: 100px;
+}
+/*Container 3*/
+.tituloMenor {
+    font-size: 16px;
+    font-family: 'Oxygen';
+    font-weight: 700;
+    text-align: center;
+}
+
+.tituloContainer3 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.subtituloContainer3 {
+    font-size: 23px;
+    text-align: center;
+}
+
+.tituloTableC3 {
+    font-size: 23px;
+    text-align: center;
+    color: #313131;   
+}
+
+.cargaHoraria {
+    font-size: 15px;
+    color: #313131;
+    text-align: center;
+    font-family: 'Oxygen';
+    
+}
+
+.botaoContainer3 {
+    font-size: 18px;
+    background-color: #212c41;
+    font-family: 'Oxygen';
+    text-align: center;
+    height: 56px;
+    width: 175px;
+    color: white;
+    font-weight: 700;
+    border-style: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 55px;
+}
+
+.imagensTabelaContainer3 {
+    padding-left: 20px;
+    padding-top: 240px;
+}
+
+.tabelaContainer3 {
+    margin: 105px;
+}
+
+/*Container 4*/
+.container4 {
+    background-color: #cae1e1;
+    height: 413px;
+    margin-top: 140px;
+    position: relative;
+    
+}
+
+.bloco {
+    width: 1120px;
+    height: 173px;
+    background-color: #151b29;
+    margin-left: 118px;
+    margin-top: 120px;
+    position: absolute;
+}
+
+.textoContainer4 {
+    font-size: 38px;
+    text-align: left;
+    display: inline-block;
+    color: white;
+    margin-left: 24px;
+}
+
+.btContainer4 {
+    box-shadow: none;
+    border-style: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: 'Oxygen';
+    font-weight: 700;
+    background-color: #212c41;
+    color: white;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    height: 78px;
+    width: 323px;
+    margin-top: 47px;
+    margin-left: 120px;
+    position: absolute;
+}
+
+/*Container 5*/
+.container5 {
+    width: auto;
+    height: 913px;
+}
+
+.tituloContainer5 {
+    font-size: 38px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.blocoContainer5 {
+    height: 512px;
+    width: 361px;
+    background-color: #cae1e1;
+    display: inline-block;
+    margin-left: 18px;
+}
+
+#blocoBase {
+    margin-left: 100px;
+}
+
+.textoBlocoC5 {
+    margin-left: 23px;
+    font-size: 23px;
+    color: #313131;
+}
+
+.ctgHorasC5 {
+    margin-left: 21px;
+    font-family: 'Oxygen';
+    font-size: 16px;
+    color: #313131;
+}
+
+/*Container 6*/
+.container6 {
+    height: 901px;
+    width: 1366px;
+    background-color: #151b29;
+    position: relative;
+}
+
+.tituloC6 {
+    text-align: left;
+    font-size: 38px;
+    color: #ffffff;
+    margin-left: 119px;
+    margin-top: 140px;
+
+}
+
+.blocoContainer6 {
+    position: relative;
+    margin-top: 95px;
+    margin-left: 118px;
+    display: inline-block;
+}
+
+.textobloco {
+    font-size: 26px;
+    font-family: 'Oxygen';
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.nomeBloco {
+    font-size: 17px;
+    font-family: 'Oxygen';
+    color: #ffffff;
+}
+
+/*Container 7*/
+
+.container7 {
+    height: 1363px;
+    width: 1366px;
+    display: inline-block;
+    background-image: url(https://lwfiles000.mycourse.app/datascienceacademy-public/a564fafe341bdf2e34e4ff90b5cb4fa6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 195%;
+}
+
+.tituloC7 {
+    font-size: 38px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.tituloBlocoC7 {
+    font-size: 23px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.textoBlocoC7 {
+    color: #ffffff;
+    text-align: left;
+    font-size: 17px;
+    font-family: 'Oxygen';
+    opacity: 60%;
+}
+
+.bloco1C7 {
+    width: 930px;
+    height: 196px;
+    margin-top: 30px;
+    background-color: #151b29;
+    padding: 35px;
+    margin-left: 213px;
+}
+
+.bloco2C7 {
+    width: 930px;
+    height: 140px;
+    margin-top: 30px;
+    background-color: #151b29;
+    padding: 35px;
+    margin-left: 213px;
+}
+
+.bloco3C7 {
+    width: 930px;
+    height: 109px;
+    margin-top: 30px;
+    background-color: #151b29;
+    padding: 35px;
+    margin-left: 213px;
+}
+
+.bloco4C7 {
+    width: 930px;
+    height: 321px;
+    margin-top: 30px;
+    background-color: #151b29;
+    padding: 35px;
+    margin-left: 213px;
+}
+
+/*Container 8*/
+.container8 {
+    height: 510px;
+    background-color: #151b29;
+}
+
+.bloco2Container8 {
+    display: inline;
+}
+
+.tituloBloco2C8 {
+    font-size: 18px;
+    color: #ffffff;
+    margin-left: 415px;
+    margin-top: 113px;
+}
+
+.textoBloco2C8 {
+    text-decoration: none;
+    display: inline;
+    position: relative;
+    color: #ffffff;
+    font-family: 'Oxygen';
+}
+
+.imgBloco2C8 {
+    margin-left: 415px;
+}
+
+.bloco1Container8 {
+    display: inline;
+}
+
+.tituloBloco1C8 {
+    position: absolute;
+    margin-top: 124px;
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 118px;
+}
+
+.textoBloco1C8 {
+    position: absolute;
+    display: inline-block;
+    margin-top: 154px;
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 118px;
+    font-family: 'Oxygen';
+    width: 228px;
+    height: 123px;
+}
+
+
+
+
+
+.textoBloco3C8 {
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+    font-family: 'Oxygen';
+}
+
+.bloco3Container8 {
+    position: relative;
+    margin-left: 760px;
+    margin-top: -165px;
+}
+
+.tituloBloco3C8 {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.bloco4Container8 {
+    position: relative;
+    margin-left: 980px;
+    margin-top: -138px;
+}
+
+.textoBloco4C8 {
+    text-decoration: none;
+    display: inline;
+    color: #ffffff;
+    font-family: 'Oxygen';
+}
+
+.tituloBloco4C8 {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.copyright {
+    position: absolute;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: 'Oxygen';
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 540px;
+}
